@@ -1,16 +1,16 @@
-# postslistview
+# Flutter API Posts App
 
-Fetch posts from https://jsonplaceholder.typicode.com/posts and display them in a scrollable list using ListView in Flutter.
+This Flutter app fetches and displays a list of posts from a REST API using the `http` package and a custom `Post` model.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- Fetches data from `https://jsonplaceholder.typicode.com/posts`
+- Parses JSON data into a Dart model (`Post`)
+- Displays a loading indicator while fetching - CircularProgressIndicator()
+- Shows error messages when fetch fails
+- Displays posts in a clean `ListView` - ListView.builder(),snapshot
+- Creating a model -  factory,fromJson
 
-A few resources to get you started if this is your first Flutter project:
+  ## Screenshots
+<img width="197" alt="image" src="https://github.com/user-attachments/assets/88987302-8342-4a5a-a436-9d558ca2fe4a" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
